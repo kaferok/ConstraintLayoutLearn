@@ -5,15 +5,16 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.bijov1apps.constraintlayouttest.R
 
-class RvAdapter:RecyclerView.Adapter<RvViewHolder>() {
+class RvAdapter : RecyclerView.Adapter<RvViewHolder>() {
 
-    var items:List<Int> = arrayListOf()
-    set(value){
-        field = value
-        notifyDataSetChanged()
-    }
+    var items: List<Int> = arrayListOf()
+        set(value) {
+            field = value
+            notifyDataSetChanged()
+        }
+
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RvViewHolder =
-        RvViewHolder(LayoutInflater.from(parent.context).inflate(R.layout.rv_item,parent,false))
+        RvViewHolder(LayoutInflater.from(parent.context).inflate(R.layout.rv_item, parent, false))
 
     override fun getItemCount(): Int = items.size
 

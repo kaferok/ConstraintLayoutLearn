@@ -2,7 +2,8 @@
     <string name="app_name">ConstraintLayoutTest</string>
     <string name="clean_filter">Clean filter</string>
     <string name="skip">skip</string>
-    <string name="test_name">NameName</string>
+    <string name="test_name">ClientName</string>
     <string name="my_service">My service</string>
     <string name="logo">LOGO</string>
+    <string name="clients">Clients</string>
 </resources>
